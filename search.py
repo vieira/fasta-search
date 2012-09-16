@@ -406,8 +406,8 @@ def parse_input(database_file):
       
       if line[0] == "E":
         #use_shift_and(proteins, line[1]) # procura exacta shift-and
-        #use_pof(proteins, line[1]) # procura exacta com boyer-moore modificado
-        use_kmp(proteins, line[1]) # procura exacta com knuth-morris-pratt
+        use_pof(proteins, line[1]) # procura exacta com boyer-moore modificado
+        #use_kmp(proteins, line[1]) # procura exacta com knuth-morris-pratt
       elif line[0] == "I":
         gs = gsa(proteins) # suffix array generalizado
         #sa(proteins) # suffix array por proteina
