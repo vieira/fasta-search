@@ -1,5 +1,7 @@
-Comandos:
-E pesquisa exacta
-I indexar ficheiro fasta
-B pesquisa bin√ria com suffix array
-A pesquisa aproximada
+<h1>Comandos:</h1>
+<dl>
+<dt>E</dt> <dd>pesquisa exacta</dd>
+<dt>I</dt> <dd>indexar ficheiro fasta</dd>
+<dt>B</dt> <dd>pesquisa bin√°ria com suffix array</dd>
+<dt>A</dt> <dd>pesquisa aproximada</dd>
+</dl>
